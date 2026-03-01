@@ -15,7 +15,7 @@
         <div class="_container">
             <header class="header">
                 <div class="header__logo">
-                    <a href=""><img src="./img/logo.svg" alt=""></a>
+                    <use xlink:href="./img/sprite.svg#logo"></use>
                 </div>
                 <div class="header__burger-container">
                     <span class="header__burger"></span>
@@ -97,7 +97,9 @@
                             <div class="columns__row">
                                 <div class="columns__column">
                                     <div class="columns__item item card">
-                                        <div class="item__image"><img src="./img/rec-brand.svg" alt=""></div>
+                                        <svg class="item__image">
+                                            <use href="./img/sprite.svg#rec-brand"></use>
+                                        </svg>
                                         <h2 class="item__title">Brand <br> Identity</h2>
                                         <div class="item__text">Strategic visual systems that
                                             command attention and define market presence through bold aesthetics.</div>
@@ -108,7 +110,9 @@
                                 </div>
                                 <div class="columns__column">
                                     <div class="columns__item item card">
-                                        <div class="item__image"><img src="./img/rec-visual.svg" alt=""></div>
+                                        <svg class="item__image">
+                                            <use href="./img/sprite.svg#rec-visual"></use>
+                                        </svg>
                                         <h2 class="item__title">3D <br> Visualization</h2>
                                         <div class="item__text">Strategic visual systems that
                                             command attention and define market presence through bold aesthetics.</div>
@@ -119,7 +123,9 @@
                                 </div>
                                 <div class="columns__column">
                                     <div class="columns__item item card">
-                                        <div class="item__image"><img src="./img/rec-digital.svg" alt=""></div>
+                                        <svg class="item__image">
+                                            <use href="./img/sprite.svg#rec-digital"></use>
+                                        </svg>
                                         <h2 class="item__title">Digital <br> Experience</h2>
                                         <div class="item__text">Strategic visual systems that
                                             command attention and define market presence through bold aesthetics.</div>
@@ -193,9 +199,15 @@
                                 strategy. We don't just build, we architect digital
                                 experiences.</div>
                             <div class="info__links">
-                                <a href="" class="_link"><img src="./img/earth.svg" alt=""></a>
-                                <a href="" class="_link"><img src="./img/email-sign.svg" alt=""></a>
-                                <a href="" class="_link"><img src="./img/cam.svg" alt=""></a>
+                                <svg class="_link">
+                                    <use href="./img/sprite.svg#earth"></use>
+                                </svg>
+                                <svg class="_link">
+                                    <use href="./img/sprite.svg#email-sign"></use>
+                                </svg>
+                                <svg class="_link">
+                                    <use href="./img/sprite.svg#cam"></use>
+                                </svg>
                             </div>
                         </div>
                         <nav class="grid-wrapper__nav nav">
@@ -233,7 +245,7 @@
         </footer>
     </div>
     <!-- Скрипт -->
-    <script src="./js/script.js"></script>
+    <script src="./js/script.js" script defer></script>
 </body>
 
 </html>
